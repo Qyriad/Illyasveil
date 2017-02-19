@@ -4,3 +4,7 @@ A Discord self bot by 916253. Based off of Kurisu by 916253 and ihaveamac/ihavea
 All this really does for now is meme commands, and easy hot swapping of addons (thanks to existing code from [Kurisu](https://github.com/916253/kurisu) )
 
 Uses [discord.py](https://github.com/Rapptz/discord.py).
+
+
+###Warning: 
+If you are in too many servers (40+), this will not be able to load properly as-is
