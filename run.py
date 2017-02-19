@@ -59,7 +59,7 @@ async def on_ready():
 
 # loads extensions
 addons = [
-    'addons.test',
+    'addons.memes',
     'addons.load',
 ]
 
