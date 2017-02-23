@@ -47,11 +47,10 @@ def escape_name(name):
     return name.replace("@", "@\u200b")  # prevent mentions
 bot.escape_name = escape_name
 
-bot.pruning = False  # used to disable leave logs if pruning, maybe.
+bot.pruning = False 
 
 @bot.event
 async def on_ready():
-    # this bot should only ever be in one server anyway
     for server in bot.servers:
         print("{} has started! {} has {:,} members!".format(bot.user.name, server.name, server.member_count))
         bot.server = server
