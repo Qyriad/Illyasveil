@@ -4,6 +4,7 @@
 
 import discord
 from discord.ext import commands
+import asyncio
 from sys import argv
 
 class Memes:
@@ -174,6 +175,8 @@ class Memes:
     @commands.command(pass_context=True, hidden=True)
     async def spin(self, ctx):
         """Cute"""
+        await self.bot.say("Illya is loading...")
+        await asyncio.sleep(5)
         await self._meme(ctx, "http://i.imgur.com/Q7CECXA.gif")
         
     @commands.command(pass_context=True, hidden=True)
