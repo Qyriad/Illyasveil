@@ -155,6 +155,51 @@ class Memes:
     async def baka(self, ctx):
         """Cute"""
         await self._meme(ctx, "http://i.imgur.com/OyjCHNe.png")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def pantsu(self, ctx):
+        """Cute"""
+        await self._meme(ctx, "http://i.imgur.com/BoRZLTU.png")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def luff(self, ctx):
+        """Cute"""
+        await self._meme(ctx, "http://i.imgur.com/8TKIixk.png")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def fug(self, ctx):
+        """meme"""
+        await self._meme(ctx, "http://i.imgur.com/ZhTZtDa.png")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def fug2(self, ctx):
+        """meme"""
+        await self._meme(ctx, "http://i.imgur.com/9LvnrBB.png")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def walksin(self, ctx):
+        """meme"""
+        await self._meme(ctx, "http://i.imgur.com/xMfzlnU.jpg")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def walksout(self, ctx):
+        """meme"""
+        await self._meme(ctx, "http://i.imgur.com/wIRkdud.jpg")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def period(self, ctx):
+        """meme"""
+        await self._meme(ctx, "http://i.imgur.com/IGu4zGZ.jpg")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def sadness(self, ctx):
+        """:c"""
+        await self._meme(ctx, "http://i.imgur.com/maRp8nB.png")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def negativity(self, ctx):
+        """:c"""
+        await self._meme(ctx, "hhttp://i.imgur.com/1D5vHSk.png")
 
 # Load the extension
 def setup(bot):
