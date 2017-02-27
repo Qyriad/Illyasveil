@@ -162,6 +162,21 @@ class Memes:
         await self._meme(ctx, "http://i.imgur.com/BoRZLTU.png")
         
     @commands.command(pass_context=True, hidden=True)
+    async def animal(self, ctx):
+        """Cute"""
+        await self._meme(ctx, "http://i.imgur.com/Rhd6H8x.jpg")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def rub(self, ctx):
+        """Cute"""
+        await self._meme(ctx, "http://i.imgur.com/DkxNtGK.gif")
+        
+    @commands.command(pass_context=True, hidden=True)
+    async def spin(self, ctx):
+        """Cute"""
+        await self._meme(ctx, "http://i.imgur.com/Q7CECXA.gif")
+        
+    @commands.command(pass_context=True, hidden=True)
     async def luff(self, ctx):
         """Cute"""
         await self._meme(ctx, "http://i.imgur.com/8TKIixk.png")
