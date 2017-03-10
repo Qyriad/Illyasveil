@@ -17,6 +17,7 @@ class Memes:
 
     async def _meme(self, ctx, msg):
         author = ctx.message.author
+        await self.bot.delete_message(ctx.message)
         await self.bot.say(msg)
 
     # list memes
