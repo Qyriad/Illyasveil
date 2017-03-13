@@ -54,7 +54,7 @@ async def on_ready():
     for server in bot.servers:
         print("{} has started! {} has {:,} members!".format(bot.user.name, server.name, server.member_count))
         bot.server = server
-        await bot.change_presence(status=discord.Status.invisible)
+    await bot.change_presence(status=discord.Status.offline)
 
 
 # loads extensions
