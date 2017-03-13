@@ -60,6 +60,7 @@ async def on_ready():
 addons = [
     'addons.memes',
     'addons.load',
+    'addons.playing',
 ]
 
 failed_addons = []
