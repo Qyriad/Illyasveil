@@ -34,7 +34,7 @@ bot = commands.Bot(command_prefix=prefix, description=description, pm_help=None,
 async def on_ready():
     for server in bot.servers:
         print("{} has started! {} has {:,} members!".format(bot.user.name, server.name, server.member_count))
-    await bot.change_presence(status=discord.Status.offline)
+    await bot.change_presence(status=discord.Status.invisible, afk=True)
 
 # loads extensions
 addons = [
